@@ -4,7 +4,12 @@
 	    width: 620px;
 	    right: 50%;
 	    transform: translateX(50%);
-
+	    .delivery-cart__modal-body2-mobile {
+		display: block;
+	    }
+	    .delivery-cart__modal-order{
+		display: none;
+	    }
 	    .delivery-cart__continue {
 		.delivery-cart__mobile-order {
 		    display: block !important;
