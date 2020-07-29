@@ -24,6 +24,7 @@
 
 	    .delivery-cart__modal-body2 {
 		display: none;
+		width: 100%;
 	    }
 
 	    .delivery-cart__modal-body1 {
@@ -35,11 +36,6 @@
 		padding-left: 170px;
 	    }
 
-	    .delivery-cart__modal-body {
-		.delivery-cart__modal-body2-form {
-		    width: 0;
-		}
-	    }
 
 	    .delivery-cart__continue p {
 		font-size: 18px;
