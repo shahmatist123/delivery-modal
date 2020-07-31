@@ -56,7 +56,8 @@
 	width: 970px;
 	position: absolute;
 	top: 80px;
-	right: 88px;
+	right: 50%;
+	transform: translateX(50%);
 	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
 	transition: ease 0.15s;
 	z-index: 2000;
