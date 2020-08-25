@@ -71,6 +71,9 @@
 
 @media screen and (max-width: 700px) {
     .box-size {
+	.delivery-cart__modal .delivery-cart__count{
+	    margin-left: auto;
+	}
 	.delivery-cart__modal-container-active   .delivery-cart__modal{
 	    top: 0;
 	}
@@ -81,7 +84,7 @@
 
 	    .delivery-cart__item {
 		position: relative;
-
+		height: 92px;
 	    }
 
 	    .delivery-cart__flex:first-of-type {
@@ -92,6 +95,7 @@
 		position: absolute;
 		bottom: 10px;
 		right: 20px;
+		left: 10px;
 	    }
 
 	    .delivery-cart__item {
@@ -117,6 +121,7 @@
 		font-size: 14px;
 		width: 57px;
 		margin-left: 5px;
+		margin-top: 4px;
 	    }
 
 	    .delivery-cart__count2 {
